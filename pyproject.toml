@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "svd-image-compression"
+version = "0.1.0"
+description = "Image compression using SVD"
+authors = [{name = "Samuel Desrosiers", email = "sami-des@hotmail.com"}]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20.0",
+    "matplotlib>=3.3.0",
+]
+
+[project.urls]
+Repository = "https://github.com/Samiod131/SVD_image_compression"
+
